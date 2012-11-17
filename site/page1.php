@@ -38,20 +38,15 @@
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container-fluid">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="#">Project name</a>
+          
+          <a class="brand" href="#">Meu Site</a>
           <div class="nav-collapse collapse">
-            <p class="navbar-text pull-right">
-              Logged in as <a href="#" class="navbar-link">Username</a>
-            </p>
+            
             <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li class="active"><a href="page1.php">Página 1</a></li>
+              <li><a href="#page2.php">Página 2</a></li>
+              <li><a href="#about">Sobre Mim</a></li>
+              <li><a href="#contact">Contato</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -60,6 +55,7 @@
 
     <div class="container-fluid">
       <div class="row-fluid">
+
         <div class="span3">
           <div class="well sidebar-nav">
             <ul class="nav nav-list">
@@ -84,8 +80,8 @@
         </div><!--/span-->
         <div class="span9">
           <div class="hero-unit">
-            <h1>Hello, world!</h1>
-            <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+            <h1>Página 1</h1>
+            <p> Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
             <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
           </div>
           <div class="row-fluid">
