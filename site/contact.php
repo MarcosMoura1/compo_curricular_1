@@ -43,10 +43,10 @@
           <div class="nav-collapse collapse">
             
             <ul class="nav">
-              <li class="active"><a href="page1.php">Página 1</a></li>
-              <li><a href="#page2.php">Página 2</a></li>
-              <li><a href="#about">Sobre Mim</a></li>
-              <li><a href="#contact">Contato</a></li>
+              <li class="active"><a href="contact.php">Contatos</a></li>
+              <li><a href="page1.php">Pagina 1</a></li>
+              <li><a href="page2.php">Pagina 2</a></li>
+        <li><a href="aboutme.php">Sobre Mim</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
