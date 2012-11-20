@@ -137,89 +137,12 @@
 				echo "<p>$imprime </p>";
 			?>
 			
+			
+
+
+
 			<?php
-			//exercicio 7
 			
-			/*	a) array() = Um array é uma coleção de um ou mais objetos, do mesmo tipo, armazenados em endereços adjacentes de memória.
-			/*	b) trim — Retira espaço no ínicio e final de uma string*/
-			/*	c) substr — Retorna uma parte de uma stringg*/
-			/*	d) strtolower — Converte uma string para minúsculas*/
-			/*	e) Converte uma string para maiúsculas*/
-			/*	f)ucfirst — Converte para maiúscula o primeiro caractere de uma string*/
-			/*	g)ucwords — Converte para maiúsculas o primeiro caractere de cada palavra*/
-			/*	h)explode — Divide uma string em strings*/
-			/*	i)var_dump — Mostra informações sobre a variável*/
-			/*	j)implode — Junta elementos de uma matriz em uma string*/
-			/*	k)htmlspecialchars_decode — Converte especiais entidades HTML para caracteres*/
-			/*	l)join — Sinônimo de implode()*/
-			/*	m)isset — Informa se a variável foi iniciada*/
-			/*	n)strlen — Retorna o tamanho de uma string*/
-			/*	p)getdate — Consegue informações data/hora*/
-			/*	q)empty — Informa se a variável é vazia*/
-			/*	y)count — Conta o número de elementos de uma variável, ou propriedades de um objeto*/
-			/*	z)htmlentities — Converte todos os caracteres aplicáveis em entidades html.*/
-			
-			
-			?>
-			<?php
-			/*
-					//de string para integer
-			
-  					$str = "10";
-   					$num = (int)$str;
-			
-   					
-
-
-   					//de string para array
-   					
-					// Example 1
-					$pizza  = "piece1 piece2 piece3 piece4 piece5 piece6";
-					$pieces = explode(" ", $pizza);
-					echo $pieces[0]; // piece1
-					echo $pieces[1]; // piece2
-
-					// Example 2
-					$data = "foo:*:1023:1000::/home/foo:/bin/sh";
-					list($user, $pass, $uid, $gid, $gecos, $home, $shell) = explode(":", $data);
-					echo $user; // foo
-					echo $pass; // *
-
-					
-				
-
-				//de string para array
-					
-				$array = array('lastname', 'email', 'phone');
-				$comma_separated = implode(",", $array);
-
-				echo $comma_separated; // lastname,email,phone
-
-				// Empty string when using an empty array:
-				var_dump(implode('hello', array())); // string(0) ""
-
-				
-				
-
-				de integer para float
-
-				<?php
-			    $f = 0.03;
-			    $b = (1 - 0.97);
-
-			    var_dump($f == $b); //result FALSE
-				?>
-
-				<?php
-			    $f = (float)(string)0.03;
-			    $b = (float)(string)(1 - 0.97);
-
-			    var_dump($f == $b); //result TRUE
-				?>
-			*/
-
-			?>
-
 			
 			<fieldset>
 			<legend>Formulario de cadastro</legend>
