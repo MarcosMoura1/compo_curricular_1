@@ -1,0 +1,1597 @@
+2012-09-04 18:04:03 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Applications/MAMP/htdocs/cakeStrap/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-04 18:22:02 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Applications/MAMP/htdocs/cakeStrap/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-04 18:35:02 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [/Applications/MAMP/htdocs/cakeStrap/app/View/Layouts/default.ctp, line 21]
+2012-09-04 18:35:02 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+#0 /Applications/MAMP/htdocs/cakeStrap/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 21, Array)
+#2 /Applications/MAMP/htdocs/cakeStrap/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 21, Array)
+#3 /Applications/MAMP/htdocs/cakeStrap/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-31 17:03:19 Error: Fatal Error (4): syntax error, unexpected 'new' (T_NEW) in [C:\xampp\htdocs\caketeste\app\Model\User.php, line 8]
+2012-10-31 17:03:19 Error: [FatalErrorException] syntax error, unexpected 'new' (T_NEW)
+#0 C:\xampp\htdocs\caketeste\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 8, Array)
+#2 C:\xampp\htdocs\caketeste\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 8, Array)
+#3 C:\xampp\htdocs\caketeste\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-31 17:05:50 Error: Fatal Error (4): syntax error, unexpected ')', expecting '(' in [C:\xampp\htdocs\caketeste\app\Model\User.php, line 8]
+2012-10-31 17:05:50 Error: [FatalErrorException] syntax error, unexpected ')', expecting '('
+#0 C:\xampp\htdocs\caketeste\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 8, Array)
+#2 C:\xampp\htdocs\caketeste\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 8, Array)
+#3 C:\xampp\htdocs\caketeste\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-31 17:41:23 Error: [MissingViewException] View file "C:\xampp\htdocs\caketeste\app\View\Pages\display.ctp" is missing.
+#0 C:\xampp\htdocs\caketeste\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\caketeste\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\caketeste\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\caketeste\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\caketeste\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-10-31 18:51:48 Error: [MissingViewException] View file "C:\xampp\htdocs\caketeste\app\View\Posts\view.ctp" is missing.
+#0 C:\xampp\htdocs\caketeste\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\caketeste\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\caketeste\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\caketeste\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\caketeste\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-14 17:53:40 Error: [MissingViewException] View file "C:\xampp\htdocs\caketeste\app\View\Posts\add.ctp" is missing.
+#0 C:\xampp\htdocs\caketeste\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\caketeste\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\caketeste\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\caketeste\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\caketeste\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-14 18:17:24 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\caketeste\app\View\Posts\index.ctp, line 5]
+2012-11-14 18:17:25 Error: [FatalErrorException] syntax error, unexpected '<'
+#0 C:\xampp\htdocs\caketeste\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 5, Array)
+#2 C:\xampp\htdocs\caketeste\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 5, Array)
+#3 C:\xampp\htdocs\caketeste\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-27 21:24:31 Error: [MissingConnectionException] Database connection "SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)" is missing, or could not be created.
+#0 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/Model/Model.php(3158): ConnectionManager::getDataSource('default')
+#3 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/Model/Model.php(3180): Model->setSource('users')
+#5 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/Model/Model.php(1301): Model->getDataSource()
+#6 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/View/Helper/FormHelper.php(197): Model->schema()
+#7 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/View/Helper/FormHelper.php(436): FormHelper->_introspectModel('User', 'fields')
+#8 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/View/Elements/form_login.ctp(19): FormHelper->create('User', Array)
+#9 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/View/View.php(920): include('/Users/tiagolin...')
+#10 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/View/View.php(883): View->_evaluate('/Users/tiagolin...', Array)
+#11 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/View/View.php(424): View->_render('/Users/tiagolin...', Array)
+#12 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/View/Pages/home.ctp(65): View->element('form_login')
+#13 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/View/View.php(920): include('/Users/tiagolin...')
+#14 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/View/View.php(883): View->_evaluate('/Users/tiagolin...', Array)
+#15 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/View/View.php(475): View->_render('/Users/tiagolin...')
+#16 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#17 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#18 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#19 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2012-11-27 21:24:34 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:24:50 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:25:03 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:25:11 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:25:16 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:25:35 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:26:49 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:27:06 Error: [MissingControllerException] Controller class PostsController could not be found.
+#0 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:27:40 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:27:48 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 23:41:07 Error: [MissingConnectionException] Database connection "SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)" is missing, or could not be created.
+#0 C:\xampp\htdocs\andreas\blog\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\xampp\htdocs\andreas\blog\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\andreas\blog\lib\Cake\Model\Model.php(3158): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\andreas\blog\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\xampp\htdocs\andreas\blog\lib\Cake\Model\Model.php(3180): Model->setSource('users')
+#5 C:\xampp\htdocs\andreas\blog\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#6 C:\xampp\htdocs\andreas\blog\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#7 C:\xampp\htdocs\andreas\blog\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('User', 'fields')
+#8 C:\xampp\htdocs\andreas\blog\app\View\Elements\form_login.ctp(19): FormHelper->create('User', Array)
+#9 C:\xampp\htdocs\andreas\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\andreas\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#11 C:\xampp\htdocs\andreas\blog\lib\Cake\View\View.php(424): View->_render('C:\xampp\htdocs...', Array)
+#12 C:\xampp\htdocs\andreas\blog\app\View\Pages\home.ctp(65): View->element('form_login')
+#13 C:\xampp\htdocs\andreas\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#14 C:\xampp\htdocs\andreas\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#15 C:\xampp\htdocs\andreas\blog\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#16 C:\xampp\htdocs\andreas\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#17 C:\xampp\htdocs\andreas\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#18 C:\xampp\htdocs\andreas\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#19 C:\xampp\htdocs\andreas\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2012-11-28 00:10:38 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'name' doesn't have a default value
+#0 C:\xampp\htdocs\andreas\blog\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\andreas\blog\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `bl...', Array)
+#2 C:\xampp\htdocs\andreas\blog\lib\Cake\Model\Datasource\DboSource.php(1009): DboSource->execute('INSERT INTO `bl...')
+#3 C:\xampp\htdocs\andreas\blog\lib\Cake\Model\Model.php(1730): DboSource->create(Object(User), Array, Array)
+#4 C:\xampp\htdocs\andreas\blog\app\Controller\UsersController.php(60): Model->save(Array)
+#5 [internal function]: UsersController->register()
+#6 C:\xampp\htdocs\andreas\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\xampp\htdocs\andreas\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\andreas\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\andreas\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-11-27 23:49:46 Error: [MissingControllerException] Controller class HelloController could not be found.
+#0 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 23:53:47 Error: Fatal Error (4): syntax error, unexpected 'functoin' (T_STRING), expecting variable (T_VARIABLE) in [C:\xampp\htdocs\marcos\blog\app\Controller\HelloController.php, line 8]
+2012-11-27 23:53:47 Error: [FatalErrorException] syntax error, unexpected 'functoin' (T_STRING), expecting variable (T_VARIABLE)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 8, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 8, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-27 23:57:47 Error: Fatal Error (4): syntax error, unexpected 'functoin' (T_STRING), expecting variable (T_VARIABLE) in [C:\xampp\htdocs\marcos\blog\app\Controller\HelloController.php, line 8]
+2012-11-27 23:57:47 Error: [FatalErrorException] syntax error, unexpected 'functoin' (T_STRING), expecting variable (T_VARIABLE)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 8, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 8, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-27 23:59:39 Error: Fatal Error (4): syntax error, unexpected 'functoin' (T_STRING), expecting variable (T_VARIABLE) in [C:\xampp\htdocs\marcos\blog\app\Controller\HelloController.php, line 8]
+2012-11-27 23:59:39 Error: [FatalErrorException] syntax error, unexpected 'functoin' (T_STRING), expecting variable (T_VARIABLE)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 8, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 8, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 00:02:04 Error: Fatal Error (4): syntax error, unexpected 'functoin' (T_STRING), expecting variable (T_VARIABLE) in [C:\xampp\htdocs\marcos\blog\app\Controller\HelloController.php, line 8]
+2012-11-28 00:02:04 Error: [FatalErrorException] syntax error, unexpected 'functoin' (T_STRING), expecting variable (T_VARIABLE)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 8, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 8, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 00:02:05 Error: Fatal Error (4): syntax error, unexpected 'functoin' (T_STRING), expecting variable (T_VARIABLE) in [C:\xampp\htdocs\marcos\blog\app\Controller\HelloController.php, line 8]
+2012-11-28 00:02:05 Error: [FatalErrorException] syntax error, unexpected 'functoin' (T_STRING), expecting variable (T_VARIABLE)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 8, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 8, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 00:04:51 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'name' doesn't have a default value
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `bl...', Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Datasource\DboSource.php(1009): DboSource->execute('INSERT INTO `bl...')
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(1730): DboSource->create(Object(User), Array, Array)
+#4 C:\xampp\htdocs\marcos\blog\app\Controller\UsersController.php(60): Model->save(Array)
+#5 [internal function]: UsersController->register()
+#6 C:\xampp\htdocs\marcos\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-11-28 00:05:40 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'name' doesn't have a default value
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `bl...', Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Datasource\DboSource.php(1009): DboSource->execute('INSERT INTO `bl...')
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(1730): DboSource->create(Object(User), Array, Array)
+#4 C:\xampp\htdocs\marcos\blog\app\Controller\UsersController.php(60): Model->save(Array)
+#5 [internal function]: UsersController->register()
+#6 C:\xampp\htdocs\marcos\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-11-28 00:05:56 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'name' doesn't have a default value
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `bl...', Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Datasource\DboSource.php(1009): DboSource->execute('INSERT INTO `bl...')
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(1730): DboSource->create(Object(User), Array, Array)
+#4 C:\xampp\htdocs\marcos\blog\app\Controller\UsersController.php(60): Model->save(Array)
+#5 [internal function]: UsersController->register()
+#6 C:\xampp\htdocs\marcos\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-11-28 21:28:12 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\xampp\htdocs\marcos\blog\app\Controller\HelloController.php, line 16]
+2012-11-28 21:28:12 Error: [FatalErrorException] syntax error, unexpected '}'
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 16, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 16, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 21:32:34 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\marcos\blog\app\Config\bootstrap.php, line 176]
+2012-11-28 21:32:34 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 176)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 176, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 176, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 21:32:34 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\marcos\blog\app\Config\bootstrap.php, line 176]
+2012-11-28 21:32:34 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 176)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 176, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 176, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 22:18:26 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'name' doesn't have a default value
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `bl...', Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Datasource\DboSource.php(1009): DboSource->execute('INSERT INTO `bl...')
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(1730): DboSource->create(Object(User), Array, Array)
+#4 C:\xampp\htdocs\marcos\blog\app\Controller\UsersController.php(60): Model->save(Array)
+#5 [internal function]: UsersController->register()
+#6 C:\xampp\htdocs\marcos\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-11-28 23:30:50 Error: [MissingControllerException] Controller class ViewController could not be found.
+#0 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-28 23:32:07 Error: Fatal Error (4): syntax error, unexpected '$array' (T_VARIABLE) in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 5]
+2012-11-28 23:32:07 Error: [FatalErrorException] syntax error, unexpected '$array' (T_VARIABLE)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 5, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 5, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 23:32:39 Error: Fatal Error (4): syntax error, unexpected '$array' (T_VARIABLE) in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 5]
+2012-11-28 23:32:39 Error: [FatalErrorException] syntax error, unexpected '$array' (T_VARIABLE)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 5, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 5, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 23:33:30 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 17]
+2012-11-28 23:33:30 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 23:35:25 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 17]
+2012-11-28 23:35:25 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 23:35:27 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 17]
+2012-11-28 23:35:27 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 23:36:03 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 17]
+2012-11-28 23:36:03 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 23:36:05 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 17]
+2012-11-28 23:36:05 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 23:38:40 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 17]
+2012-11-28 23:38:40 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 23:38:42 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 17]
+2012-11-28 23:38:42 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 23:38:43 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 17]
+2012-11-28 23:38:43 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 23:44:25 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 17]
+2012-11-28 23:44:25 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 23:44:29 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 17]
+2012-11-28 23:44:29 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 23:46:40 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 17]
+2012-11-28 23:46:40 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 23:46:41 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 17]
+2012-11-28 23:46:41 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 23:46:42 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 17]
+2012-11-28 23:46:42 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 23:46:43 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 17]
+2012-11-28 23:46:43 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 23:48:05 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 17]
+2012-11-28 23:48:05 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 23:48:07 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 17]
+2012-11-28 23:48:07 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 23:48:08 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 17]
+2012-11-28 23:48:08 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 23:50:21 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 17]
+2012-11-28 23:50:21 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 23:50:22 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 17]
+2012-11-28 23:50:22 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 23:51:39 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 17]
+2012-11-28 23:51:39 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-29 00:03:05 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 17]
+2012-11-29 00:03:05 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-29 00:03:07 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 17]
+2012-11-29 00:03:07 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 23:21:50 Error: [MissingControllerException] Controller class IndexController could not be found.
+#0 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-04 16:59:29 Error: [MissingControllerException] Controller class ViewController could not be found.
+#0 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-04 16:59:57 Error: [MissingActionException] Action AppController::index() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-04 17:00:14 Error: [MissingActionException] Action AppController::View() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-04 17:00:22 Error: [MissingActionException] Action AppController::View() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-04 17:00:33 Error: [MissingControllerException] Controller class PostController could not be found.
+#0 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-04 17:19:11 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [C:\xampp\htdocs\marcos\blog\app\View\Posts\index.ctp, line 25]
+2012-12-04 17:19:11 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 25, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 25, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-04 18:07:01 Error: Fatal Error (4): syntax error, unexpected 'data' (T_STRING), expecting ')' in [C:\xampp\htdocs\marcos\blog\app\View\Posts\index.ctp, line 7]
+2012-12-04 18:07:01 Error: [FatalErrorException] syntax error, unexpected 'data' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 7, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 7, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-04 18:17:13 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 43]
+2012-12-04 18:17:13 Error: [FatalErrorException] syntax error, unexpected '<'
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 43)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 43, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 43, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-04 18:40:02 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 47]
+2012-12-04 18:40:02 Error: [FatalErrorException] syntax error, unexpected '<'
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 47)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 47, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 47, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-04 18:44:26 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 47]
+2012-12-04 18:44:26 Error: [FatalErrorException] syntax error, unexpected '<'
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 47)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 47, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 47, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-04 18:44:29 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 47]
+2012-12-04 18:44:29 Error: [FatalErrorException] syntax error, unexpected '<'
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 47)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 47, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 47, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-04 18:48:29 Error: Fatal Error (4): syntax error, unexpected '=', expecting identifier (T_STRING) in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 69]
+2012-12-04 18:48:29 Error: [FatalErrorException] syntax error, unexpected '=', expecting identifier (T_STRING)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 69)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 69, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 69, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-04 18:59:19 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 49]
+2012-12-04 18:59:19 Error: [FatalErrorException] syntax error, unexpected '<'
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 49)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 49, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 49, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-04 19:00:05 Error: Fatal Error (4): syntax error, unexpected 'class' (T_CLASS) in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 49]
+2012-12-04 19:00:05 Error: [FatalErrorException] syntax error, unexpected 'class' (T_CLASS)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 49)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 49, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 49, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-04 19:00:31 Error: Fatal Error (4): syntax error, unexpected 'class' (T_CLASS) in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 49]
+2012-12-04 19:00:31 Error: [FatalErrorException] syntax error, unexpected 'class' (T_CLASS)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 49)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 49, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 49, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-04 19:00:34 Error: Fatal Error (4): syntax error, unexpected 'class' (T_CLASS) in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 49]
+2012-12-04 19:00:34 Error: [FatalErrorException] syntax error, unexpected 'class' (T_CLASS)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 49)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 49, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 49, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-04 19:00:39 Error: Fatal Error (4): syntax error, unexpected 'class' (T_CLASS) in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 49]
+2012-12-04 19:00:39 Error: [FatalErrorException] syntax error, unexpected 'class' (T_CLASS)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 49)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 49, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 49, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-04 19:08:28 Error: Fatal Error (4): syntax error, unexpected 'class' (T_CLASS) in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 50]
+2012-12-04 19:08:28 Error: [FatalErrorException] syntax error, unexpected 'class' (T_CLASS)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 50)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 50, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 50, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-04 19:08:55 Error: Fatal Error (4): syntax error, unexpected 'class' (T_CLASS) in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 50]
+2012-12-04 19:08:55 Error: [FatalErrorException] syntax error, unexpected 'class' (T_CLASS)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 50)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 50, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 50, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-04 19:09:12 Error: Fatal Error (4): syntax error, unexpected '"alert alert-success"' (T_CONSTANT_ENCAPSED_STRING) in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 50]
+2012-12-04 19:09:12 Error: [FatalErrorException] syntax error, unexpected '"alert alert-success"' (T_CONSTANT_ENCAPSED_STRING)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 50)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 50, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 50, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-05 17:29:57 Error: [MissingActionException] Action UsersController::Post() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:29:59 Error: [MissingActionException] Action UsersController::Post() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:30:01 Error: [MissingActionException] Action UsersController::Post() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:31:50 Error: [MissingActionException] Action UsersController::posts() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:31:55 Error: [MissingActionException] Action UsersController::posts() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:33:13 Error: [MissingControllerException] Controller class Aboutme.phpController could not be found.
+#0 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-05 17:33:47 Error: [MissingControllerException] Controller class Aboutme.phpController could not be found.
+#0 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-05 17:33:49 Error: [MissingControllerException] Controller class Sobremim.ctpController could not be found.
+#0 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-05 17:33:51 Error: [MissingControllerException] Controller class Sobremim.ctpController could not be found.
+#0 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-05 17:33:54 Error: [MissingControllerException] Controller class Sobremim.ctpController could not be found.
+#0 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-05 17:33:55 Error: [MissingActionException] Action UsersController::posts() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:33:56 Error: [MissingActionException] Action UsersController::sobremim.ctp() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:34:00 Error: [MissingActionException] Action UsersController::sobremim.ctp() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:36:20 Error: [MissingActionException] Action UsersController::add.ctp() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:36:32 Error: [MissingControllerException] Controller class AddController could not be found.
+#0 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-05 17:37:25 Error: [MissingControllerException] Controller class Add.ctpController could not be found.
+#0 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-05 17:42:17 Error: [MissingControllerException] Controller class Add.ctpController could not be found.
+#0 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-05 17:42:20 Error: [MissingActionException] Action UsersController::view.ctp() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:42:22 Error: [MissingActionException] Action UsersController::view.ctp() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:43:40 Error: [MissingActionException] Action UsersController::view.ctp() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:43:42 Error: [MissingActionException] Action PostsController::view.ctp() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:43:43 Error: [MissingActionException] Action PostsController::view.ctp() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:44:51 Error: [MissingActionException] Action PostsController::view.ctp() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:44:54 Error: [MissingActionException] Action PostsController::view.ctp() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:44:55 Error: [MissingActionException] Action PostsController::Posts() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:44:57 Error: [MissingActionException] Action PostsController::Posts() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:45:32 Error: [MissingActionException] Action PostsController::Posts() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:45:34 Error: [MissingActionException] Action AppController::Posts() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:45:35 Error: [MissingActionException] Action AppController::Posts() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:46:48 Error: [MissingActionException] Action AppController::Posts() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:46:50 Error: [MissingActionException] Action AppController::view.ctp() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:46:51 Error: [MissingActionException] Action AppController::view.ctp() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:47:43 Error: [MissingActionException] Action AppController::view.ctp() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:47:45 Error: [MissingActionException] Action AppController::view.ctp() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:49:12 Error: [MissingActionException] Action AppController::view.ctp() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:49:14 Error: [MissingActionException] Action AppController::view.ctp() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:49:16 Error: [MissingActionException] Action UsersController::view.ctp() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:49:36 Error: [MissingActionException] Action AppController::Posts() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:49:38 Error: [MissingActionException] Action AppController::Posts() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:49:39 Error: [MissingActionException] Action AppController::Posts() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:49:49 Error: [MissingActionException] Action AppController::Posts() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:49:51 Error: [MissingActionException] Action AppController::Posts() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:49:52 Error: [MissingActionException] Action AppController::Posts() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:51:49 Error: [MissingActionException] Action AppController::Posts() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:51:52 Error: [NotFoundException] Usuário inválido
+#0 [internal function]: UsersController->view()
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-05 17:51:54 Error: [NotFoundException] Usuário inválido
+#0 [internal function]: UsersController->view()
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-05 17:51:58 Error: [NotFoundException] Usuário inválido
+#0 [internal function]: UsersController->view()
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-05 17:52:14 Error: [NotFoundException] Usuário inválido
+#0 [internal function]: UsersController->view()
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-05 17:52:16 Error: [MissingActionException] Action UsersController::view.ctp() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:52:31 Error: [MissingActionException] Action UsersController::view.ctp() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:52:34 Error: [MissingActionException] Action UsersController::index() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:52:36 Error: [MissingActionException] Action UsersController::index() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:52:48 Error: [MissingActionException] Action UsersController::index() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:52:49 Error: [MissingActionException] Action UsersController::index.ctp() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:53:25 Error: [MissingActionException] Action UsersController::index.ctp() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:53:26 Error: [MissingActionException] Action AppController::index() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:53:27 Error: [MissingActionException] Action AppController::index() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:53:37 Error: [MissingActionException] Action AppController::index() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:53:39 Error: [MissingActionException] Action AppController::index() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:54:00 Error: [MissingActionException] Action AppController::index() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:54:03 Error: [MissingActionException] Action UsersController::index() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:54:05 Error: [MissingActionException] Action UsersController::index() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 17:55:15 Error: [MissingActionException] Action UsersController::index() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 18:14:42 Error: Fatal Error (4): syntax error, unexpected ',' in [C:\xampp\htdocs\marcos\blog\app\View\Posts\index.ctp, line 33]
+2012-12-05 18:14:42 Error: [FatalErrorException] syntax error, unexpected ','
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 33)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 33, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 33, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-05 18:22:51 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\marcos\blog\app\View\Posts\index.ctp, line 33]
+2012-12-05 18:22:51 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 33)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 33, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 33, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-05 18:22:54 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\marcos\blog\app\View\Posts\index.ctp, line 33]
+2012-12-05 18:22:54 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 33)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 33, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 33, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-05 18:23:34 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\xampp\htdocs\marcos\blog\app\View\Posts\index.ctp, line 32]
+2012-12-05 18:23:34 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 32, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 32, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-05 18:29:49 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\marcos\blog\app\View\Posts\index.ctp, line 32]
+2012-12-05 18:29:49 Error: [FatalErrorException] syntax error, unexpected '<'
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 32, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 32, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-05 18:29:51 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\marcos\blog\app\View\Posts\index.ctp, line 32]
+2012-12-05 18:29:51 Error: [FatalErrorException] syntax error, unexpected '<'
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 32, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 32, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-05 18:35:23 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY), expecting ',' or ';' in [C:\xampp\htdocs\marcos\blog\app\View\Posts\index.ctp, line 39]
+2012-12-05 18:35:23 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY), expecting ',' or ';'
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-05 18:39:13 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: PostsController->delete('6')
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-05 18:40:31 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: PostsController->delete('6')
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-05 18:40:33 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: PostsController->delete('6')
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-05 18:40:34 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\xampp\htdocs\marcos\blog\app\View\Posts\index.ctp, line 38]
+2012-12-05 18:40:34 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 38)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 38, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 38, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-05 18:41:34 Error: Fatal Error (4): syntax error, unexpected ''action'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\xampp\htdocs\marcos\blog\app\View\Posts\index.ctp, line 38]
+2012-12-05 18:41:34 Error: [FatalErrorException] syntax error, unexpected ''action'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 38)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 38, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 38, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-05 18:45:07 Error: [MissingActionException] Action PostsController::Editar() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 18:49:38 Error: [MissingActionException] Action PostsController::Editar() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 18:49:46 Error: [MissingActionException] Action PostsController::edit() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 18:50:05 Error: [MissingActionException] Action PostsController::edit() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 18:50:09 Error: [MissingActionException] Action PostsController::edit() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 18:50:57 Error: [MissingActionException] Action PostsController::edit() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 18:51:01 Error: [MissingActionException] Action PostsController::edit() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 18:52:46 Error: [MissingActionException] Action PostsController::edit() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 18:52:53 Error: [MissingActionException] Action PostsController::edit() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-05 19:07:02 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY) in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 51]
+2012-12-05 19:07:02 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 51, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 51, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-05 19:07:17 Error: Fatal Error (4): syntax error, unexpected ',' in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 51]
+2012-12-05 19:07:17 Error: [FatalErrorException] syntax error, unexpected ','
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 51, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 51, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-05 19:09:06 Error: Fatal Error (4): syntax error, unexpected ',' in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 51]
+2012-12-05 19:09:06 Error: [FatalErrorException] syntax error, unexpected ','
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 51, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 51, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-05 19:09:31 Error: Fatal Error (4): syntax error, unexpected ',' in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 51]
+2012-12-05 19:09:31 Error: [FatalErrorException] syntax error, unexpected ','
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 51, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 51, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-05 19:09:53 Error: Fatal Error (4): syntax error, unexpected ',' in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 51]
+2012-12-05 19:09:53 Error: [FatalErrorException] syntax error, unexpected ','
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 51, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 51, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-05 19:09:57 Error: Fatal Error (4): syntax error, unexpected ',' in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 51]
+2012-12-05 19:09:57 Error: [FatalErrorException] syntax error, unexpected ','
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 51, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 51, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-05 19:11:18 Error: [CakeException] Unknown status code
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Controller\Controller.php(781): CakeResponse->statusCode(Array)
+#1 C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php(56): Controller->redirect(Array, Array)
+#2 [internal function]: PostsController->add()
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#4 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-12-05 19:14:15 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 50]
+2012-12-05 19:14:15 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 50)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 50, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 50, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-05 19:15:03 Error: Fatal Error (4): syntax error, unexpected 'class' (T_CLASS) in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 50]
+2012-12-05 19:15:03 Error: [FatalErrorException] syntax error, unexpected 'class' (T_CLASS)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 50)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 50, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 50, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-05 19:15:14 Error: Fatal Error (4): syntax error, unexpected 'class' (T_CLASS) in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 50]
+2012-12-05 19:15:14 Error: [FatalErrorException] syntax error, unexpected 'class' (T_CLASS)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 50)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 50, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 50, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-05 21:01:26 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 50]
+2012-12-05 21:01:26 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 50)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 50, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 50, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-05 21:02:21 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php, line 50]
+2012-12-05 21:02:21 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 50)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 50, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 50, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 16:09:53 Error: [MissingTableException] Table posts for model Post was not found in datasource default.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(3180): Model->setSource('posts')
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(2631): Model->getDataSource()
+#2 C:\xampp\htdocs\marcos\blog\app\Controller\PostsController.php(12): Model->find('all')
+#3 [internal function]: PostsController->index()
+#4 C:\xampp\htdocs\marcos\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-12-07 16:16:37 Error: [MissingControllerException] Controller class ConectaBanco.phpController could not be found.
+#0 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 16:16:52 Error: [MissingControllerException] Controller class ConectaBanco.phpController could not be found.
+#0 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 18:20:19 Error: [MissingTableException] Table users for model User was not found in datasource default.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(3180): Model->setSource('users')
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('User', 'fields')
+#4 C:\xampp\htdocs\marcos\blog\app\View\Elements\form_login.ctp(19): FormHelper->create('User', Array)
+#5 C:\xampp\htdocs\marcos\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\marcos\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#7 C:\xampp\htdocs\marcos\blog\lib\Cake\View\View.php(424): View->_render('C:\xampp\htdocs...', Array)
+#8 C:\xampp\htdocs\marcos\blog\app\View\Users\login.ctp(5): View->element('form_login')
+#9 C:\xampp\htdocs\marcos\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\marcos\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#11 C:\xampp\htdocs\marcos\blog\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\marcos\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#13 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#14 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-12-07 18:20:22 Error: [MissingTableException] Table users for model User was not found in datasource default.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(3180): Model->setSource('users')
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('User', 'fields')
+#4 C:\xampp\htdocs\marcos\blog\app\View\Elements\form_users.ctp(19): FormHelper->create('User', Array)
+#5 C:\xampp\htdocs\marcos\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\marcos\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#7 C:\xampp\htdocs\marcos\blog\lib\Cake\View\View.php(424): View->_render('C:\xampp\htdocs...', Array)
+#8 C:\xampp\htdocs\marcos\blog\app\View\Users\register.ctp(6): View->element('form_users', Array)
+#9 C:\xampp\htdocs\marcos\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\marcos\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#11 C:\xampp\htdocs\marcos\blog\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\marcos\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#13 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#14 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-12-07 18:20:23 Error: [MissingTableException] Table users for model User was not found in datasource default.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(3180): Model->setSource('users')
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('User', 'fields')
+#4 C:\xampp\htdocs\marcos\blog\app\View\Elements\form_login.ctp(19): FormHelper->create('User', Array)
+#5 C:\xampp\htdocs\marcos\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\marcos\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#7 C:\xampp\htdocs\marcos\blog\lib\Cake\View\View.php(424): View->_render('C:\xampp\htdocs...', Array)
+#8 C:\xampp\htdocs\marcos\blog\app\View\Users\login.ctp(5): View->element('form_login')
+#9 C:\xampp\htdocs\marcos\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\marcos\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#11 C:\xampp\htdocs\marcos\blog\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\marcos\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#13 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#14 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-12-07 19:40:32 Error: [MissingControllerException] Controller class AlunosController could not be found.
+#0 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 20:04:06 Error: Fatal Error (64): Cannot redeclare class Aluno in [C:\xampp\htdocs\marcos\blog\app\Model\tijolo.php, line 4]
+2012-12-07 20:04:06 Error: [FatalErrorException] Cannot redeclare class Aluno
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 4)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 4, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 4, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 20:04:09 Error: [MissingControllerException] Controller class TijolosController could not be found.
+#0 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 20:06:30 Error: Fatal Error (64): Cannot redeclare class Aluno in [C:\xampp\htdocs\marcos\blog\app\Model\tijolo.php, line 4]
+2012-12-07 20:06:30 Error: [FatalErrorException] Cannot redeclare class Aluno
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 4)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 4, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 4, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 20:07:47 Error: Fatal Error (64): Cannot redeclare class Aluno in [C:\xampp\htdocs\marcos\blog\app\Model\tijolo.php, line 4]
+2012-12-07 20:07:47 Error: [FatalErrorException] Cannot redeclare class Aluno
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 4)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 4, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 4, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 20:07:49 Error: Fatal Error (64): Cannot redeclare class Aluno in [C:\xampp\htdocs\marcos\blog\app\Model\tijolo.php, line 4]
+2012-12-07 20:07:49 Error: [FatalErrorException] Cannot redeclare class Aluno
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 4)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 4, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 4, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 20:08:21 Error: [MissingTableException] Table tijolos for model Tijolo was not found in datasource default.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(3180): Model->setSource('tijolos')
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(2631): Model->getDataSource()
+#2 C:\xampp\htdocs\marcos\blog\app\Controller\TijoloController.php(12): Model->find('all')
+#3 [internal function]: TijoloController->index()
+#4 C:\xampp\htdocs\marcos\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TijoloController), Array)
+#5 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TijoloController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-12-07 20:10:22 Error: [MissingTableException] Table tijolos for model Tijolo was not found in datasource default.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(3180): Model->setSource('tijolos')
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(2631): Model->getDataSource()
+#2 C:\xampp\htdocs\marcos\blog\app\Controller\TijoloController.php(12): Model->find('all')
+#3 [internal function]: TijoloController->index()
+#4 C:\xampp\htdocs\marcos\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TijoloController), Array)
+#5 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TijoloController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-12-07 20:15:45 Error: [MissingTableException] Table tijolos for model Tijolo was not found in datasource default.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(3180): Model->setSource('tijolos')
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(2631): Model->getDataSource()
+#2 C:\xampp\htdocs\marcos\blog\app\Controller\TijoloController.php(12): Model->find('all')
+#3 [internal function]: TijoloController->index()
+#4 C:\xampp\htdocs\marcos\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TijoloController), Array)
+#5 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TijoloController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-12-07 20:16:28 Error: [MissingTableException] Table tijolos for model Tijolo was not found in datasource default.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(3180): Model->setSource('tijolos')
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(2631): Model->getDataSource()
+#2 C:\xampp\htdocs\marcos\blog\app\Controller\TijoloController.php(12): Model->find('all')
+#3 [internal function]: TijoloController->index()
+#4 C:\xampp\htdocs\marcos\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TijoloController), Array)
+#5 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TijoloController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-12-07 20:17:52 Error: [MissingTableException] Table tijolos for model Tijolo was not found in datasource default.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(3180): Model->setSource('tijolos')
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(2631): Model->getDataSource()
+#2 C:\xampp\htdocs\marcos\blog\app\Controller\TijoloController.php(12): Model->find('all')
+#3 [internal function]: TijoloController->index()
+#4 C:\xampp\htdocs\marcos\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TijoloController), Array)
+#5 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TijoloController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-12-07 20:18:07 Error: [MissingTableException] Table tijolos for model Tijolo was not found in datasource default.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(3180): Model->setSource('tijolos')
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(2631): Model->getDataSource()
+#2 C:\xampp\htdocs\marcos\blog\app\Controller\TijoloController.php(12): Model->find('all')
+#3 [internal function]: TijoloController->index()
+#4 C:\xampp\htdocs\marcos\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TijoloController), Array)
+#5 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TijoloController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-12-07 20:19:33 Error: [MissingTableException] Table tijolos for model Tijolo was not found in datasource default.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(3180): Model->setSource('tijolos')
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(2631): Model->getDataSource()
+#2 C:\xampp\htdocs\marcos\blog\app\Controller\TijoloController.php(12): Model->find('all')
+#3 [internal function]: TijoloController->index()
+#4 C:\xampp\htdocs\marcos\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TijoloController), Array)
+#5 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TijoloController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-12-07 20:20:55 Error: [MissingTableException] Table tijolos for model Tijolo was not found in datasource default.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(3180): Model->setSource('tijolos')
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(2631): Model->getDataSource()
+#2 C:\xampp\htdocs\marcos\blog\app\Controller\TijoloController.php(12): Model->find('all')
+#3 [internal function]: TijoloController->index()
+#4 C:\xampp\htdocs\marcos\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TijoloController), Array)
+#5 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TijoloController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-12-07 20:25:58 Error: [MissingTableException] Table tijolos for model Tijolo was not found in datasource default.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(3180): Model->setSource('tijolos')
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(2631): Model->getDataSource()
+#2 C:\xampp\htdocs\marcos\blog\app\Controller\TijoloController.php(12): Model->find('all')
+#3 [internal function]: TijoloController->index()
+#4 C:\xampp\htdocs\marcos\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TijoloController), Array)
+#5 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TijoloController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-12-07 20:26:01 Error: [MissingTableException] Table tijolos for model Tijolo was not found in datasource default.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(3180): Model->setSource('tijolos')
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(2631): Model->getDataSource()
+#2 C:\xampp\htdocs\marcos\blog\app\Controller\TijoloController.php(12): Model->find('all')
+#3 [internal function]: TijoloController->index()
+#4 C:\xampp\htdocs\marcos\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TijoloController), Array)
+#5 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TijoloController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-12-07 20:26:03 Error: [MissingTableException] Table tijolos for model Tijolo was not found in datasource default.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(3180): Model->setSource('tijolos')
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(2631): Model->getDataSource()
+#2 C:\xampp\htdocs\marcos\blog\app\Controller\TijoloController.php(12): Model->find('all')
+#3 [internal function]: TijoloController->index()
+#4 C:\xampp\htdocs\marcos\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TijoloController), Array)
+#5 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TijoloController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-12-07 20:26:04 Error: [MissingTableException] Table tijolos for model Tijolo was not found in datasource default.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(3180): Model->setSource('tijolos')
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(2631): Model->getDataSource()
+#2 C:\xampp\htdocs\marcos\blog\app\Controller\TijoloController.php(12): Model->find('all')
+#3 [internal function]: TijoloController->index()
+#4 C:\xampp\htdocs\marcos\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TijoloController), Array)
+#5 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TijoloController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-12-07 20:26:06 Error: [MissingTableException] Table tijolos for model Tijolo was not found in datasource default.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(3180): Model->setSource('tijolos')
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(2631): Model->getDataSource()
+#2 C:\xampp\htdocs\marcos\blog\app\Controller\TijoloController.php(12): Model->find('all')
+#3 [internal function]: TijoloController->index()
+#4 C:\xampp\htdocs\marcos\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TijoloController), Array)
+#5 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TijoloController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-12-07 20:27:56 Error: [MissingTableException] Table tijolos for model Tijolo was not found in datasource default.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(3180): Model->setSource('tijolos')
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(2631): Model->getDataSource()
+#2 C:\xampp\htdocs\marcos\blog\app\Controller\TijoloController.php(12): Model->find('all')
+#3 [internal function]: TijoloController->index()
+#4 C:\xampp\htdocs\marcos\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TijoloController), Array)
+#5 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TijoloController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-12-07 20:27:59 Error: [MissingTableException] Table tijolos for model Tijolo was not found in datasource default.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(3180): Model->setSource('tijolos')
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(2631): Model->getDataSource()
+#2 C:\xampp\htdocs\marcos\blog\app\Controller\TijoloController.php(12): Model->find('all')
+#3 [internal function]: TijoloController->index()
+#4 C:\xampp\htdocs\marcos\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TijoloController), Array)
+#5 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TijoloController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-12-07 20:28:06 Error: [MissingTableException] Table tijolos for model Tijolo was not found in datasource default.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(3180): Model->setSource('tijolos')
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(2631): Model->getDataSource()
+#2 C:\xampp\htdocs\marcos\blog\app\Controller\TijoloController.php(12): Model->find('all')
+#3 [internal function]: TijoloController->index()
+#4 C:\xampp\htdocs\marcos\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TijoloController), Array)
+#5 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TijoloController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-12-07 20:28:23 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\marcos\blog\app\Controller\TijoloController.php, line 12]
+2012-12-07 20:28:23 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 12, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 12, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 20:28:35 Error: [MissingTableException] Table tijolos for model Tijolo was not found in datasource default.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(3180): Model->setSource('tijolos')
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Model\Model.php(2631): Model->getDataSource()
+#2 C:\xampp\htdocs\marcos\blog\app\Controller\TijoloController.php(12): Model->find('all')
+#3 [internal function]: TijoloController->index()
+#4 C:\xampp\htdocs\marcos\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TijoloController), Array)
+#5 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TijoloController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-12-07 20:28:43 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\marcos\blog\app\Controller\TijoloController.php, line 12]
+2012-12-07 20:28:43 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 12, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 12, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 20:33:29 Error: [MissingControllerException] Controller class TijoloController could not be found.
+#0 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 20:33:37 Error: [MissingControllerException] Controller class TijoloController could not be found.
+#0 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 20:33:40 Error: [MissingControllerException] Controller class TijoloController could not be found.
+#0 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 20:33:51 Error: [MissingControllerException] Controller class TijoloController could not be found.
+#0 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 20:39:31 Error: [MissingControllerException] Controller class TijoloController could not be found.
+#0 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 20:39:34 Error: [MissingControllerException] Controller class TijoloController could not be found.
+#0 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 20:39:44 Error: [MissingControllerException] Controller class TijolosController could not be found.
+#0 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 20:39:58 Error: [MissingControllerException] Controller class TijoloController could not be found.
+#0 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 20:41:52 Error: [MissingControllerException] Controller class TijoloController could not be found.
+#0 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 20:43:16 Error: [MissingControllerException] Controller class TijoloController could not be found.
+#0 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 20:43:19 Error: [MissingControllerException] Controller class TijoloController could not be found.
+#0 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 20:43:21 Error: [MissingControllerException] Controller class TijoloController could not be found.
+#0 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 20:44:39 Error: [MissingControllerException] Controller class TijoloController could not be found.
+#0 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 20:44:42 Error: [MissingControllerException] Controller class TijoloController could not be found.
+#0 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 20:45:13 Error: [MissingControllerException] Controller class TijoloController could not be found.
+#0 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 20:45:18 Error: [MissingControllerException] Controller class TijolosController could not be found.
+#0 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 20:45:28 Error: [MissingControllerException] Controller class TijoloController could not be found.
+#0 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 20:45:31 Error: [MissingControllerException] Controller class TijolosController could not be found.
+#0 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 20:46:20 Error: [MissingControllerException] Controller class TijolosController could not be found.
+#0 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 20:49:16 Error: [MissingControllerException] Controller class TijoloController could not be found.
+#0 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 21:00:54 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: TijolosController->delete('1')
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TijolosController), Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TijolosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-07 21:06:29 Error: Fatal Error (1): Call to a member function save() on a non-object in [C:\xampp\htdocs\marcos\blog\app\Controller\TijolosController.php, line 46]
+2012-12-07 21:06:29 Error: [FatalErrorException] Call to a member function save() on a non-object
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 46)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 46, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 46, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 21:09:26 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: TijolosController->delete('2')
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TijolosController), Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TijolosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-07 21:46:26 Error: Fatal Error (1): Call to a member function save() on a non-object in [C:\xampp\htdocs\marcos\blog\app\Controller\TijolosController.php, line 71]
+2012-12-07 21:46:26 Error: [FatalErrorException] Call to a member function save() on a non-object
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 71)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 71, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 71, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 22:18:22 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\marcos\blog\app\View\Tijolos\index.ctp, line 35]
+2012-12-07 22:18:22 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 22:19:00 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\marcos\blog\app\View\Tijolos\index.ctp, line 35]
+2012-12-07 22:19:00 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 22:19:36 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\marcos\blog\app\View\Tijolos\index.ctp, line 35]
+2012-12-07 22:19:36 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 22:39:22 Error: Fatal Error (4): syntax error, unexpected '"Visualizar"' (T_CONSTANT_ENCAPSED_STRING) in [C:\xampp\htdocs\marcos\blog\app\View\Tijolos\index.ctp, line 34]
+2012-12-07 22:39:22 Error: [FatalErrorException] syntax error, unexpected '"Visualizar"' (T_CONSTANT_ENCAPSED_STRING)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 34, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 34, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 22:42:35 Error: Fatal Error (4): syntax error, unexpected '"Visualizar"' (T_CONSTANT_ENCAPSED_STRING) in [C:\xampp\htdocs\marcos\blog\app\View\Tijolos\index.ctp, line 34]
+2012-12-07 22:42:35 Error: [FatalErrorException] syntax error, unexpected '"Visualizar"' (T_CONSTANT_ENCAPSED_STRING)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 34, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 34, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 22:42:47 Error: Fatal Error (4): syntax error, unexpected '"Visualizar"' (T_CONSTANT_ENCAPSED_STRING) in [C:\xampp\htdocs\marcos\blog\app\View\Tijolos\index.ctp, line 34]
+2012-12-07 22:42:47 Error: [FatalErrorException] syntax error, unexpected '"Visualizar"' (T_CONSTANT_ENCAPSED_STRING)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 34, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 34, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 22:52:24 Error: Fatal Error (4): syntax error, unexpected '"Visualizar"' (T_CONSTANT_ENCAPSED_STRING) in [C:\xampp\htdocs\marcos\blog\app\View\Tijolos\index.ctp, line 34]
+2012-12-07 22:52:24 Error: [FatalErrorException] syntax error, unexpected '"Visualizar"' (T_CONSTANT_ENCAPSED_STRING)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 34, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 34, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 22:52:55 Error: Fatal Error (4): syntax error, unexpected 'class' (T_CLASS), expecting ')' in [C:\xampp\htdocs\marcos\blog\app\View\Tijolos\index.ctp, line 34]
+2012-12-07 22:52:55 Error: [FatalErrorException] syntax error, unexpected 'class' (T_CLASS), expecting ')'
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 34, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 34, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 22:53:05 Error: Fatal Error (4): syntax error, unexpected '"Visualizar"' (T_CONSTANT_ENCAPSED_STRING) in [C:\xampp\htdocs\marcos\blog\app\View\Tijolos\index.ctp, line 34]
+2012-12-07 22:53:05 Error: [FatalErrorException] syntax error, unexpected '"Visualizar"' (T_CONSTANT_ENCAPSED_STRING)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 34, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 34, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
