@@ -11,6 +11,13 @@ class TijolosController extends AppController{
 	public function index() {
         $todasAsPostagens = $this->Tijolo->find('all');
 
+        
+        // limite da paginação
+            $this->paginate = array('limit' => 5);
+
+        // paginate('Post') === $this->Post->find('all')
+            $todasAsPostagens = $this->paginate('Tijolo');
+
         //jogar para a VIEW
         $this->set('tijolos', $todasAsPostagens);
 
@@ -69,7 +76,8 @@ function edit($id = null) {
         $this->request->data = $this->Tijolo->read();
     } else {
         if ($this->Tijolo->save($this->request->data)) {
-            $this->Session->setFlash('<div class="alert alert-success">O cadastro foi alerado com sucesso!</div>');
+            $this->Session->setFlash("O cadastro foi alerado com sucesso!", 'flash_success');
+
             $this->redirect(array('action' => 'index'));
      
 

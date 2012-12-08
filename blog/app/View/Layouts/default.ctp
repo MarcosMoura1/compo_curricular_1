@@ -38,8 +38,9 @@
             <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
             <![endif]-->
 
+
+
             <div class="navbar navbar-fixed-top">
-              <div class="navbar-inner">
                 <div class="container">
                   <?php echo $this->Html->link( Configure::read("Marcos") ,"/",array('class' => 'brand')) ?>
                   <div class="nav-collapse">
@@ -54,15 +55,15 @@
                         <?php echo $this->Html->link(__('Postagens'),array('controller' => 'Posts','action' => 'index')) ?>
                       </li>
 
+
                       <li class="<?php echo $this->action == 'index' ? 'active' : ''; ?>">
                         <?php echo $this->Html->link(__('Cadasto de Produto'),array('controller' => 'Tijolos','action' => 'index')) ?>
                       </li>
 
-
-
                       <li class="<?php echo $this->action == 'register' ? 'active' : ''; ?>">
                         <?php echo $this->Html->link(__('Register'),array('controller' => 'users','action' => 'register')) ?>
                       </li>
+
 
 
                       

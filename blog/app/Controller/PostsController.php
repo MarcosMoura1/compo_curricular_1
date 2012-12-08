@@ -11,6 +11,13 @@ class PostsController extends AppController{
 	public function index() {
         $todasAsPostagens = $this->Post->find('all');
 
+        // limite da paginação
+            $this->paginate = array('limit' => 5);
+
+        // paginate('Post') === $this->Post->find('all')
+            $todasAsPostagens = $this->paginate('Post');
+
+
         //jogar para a VIEW
         $this->set('posts', $todasAsPostagens);
 

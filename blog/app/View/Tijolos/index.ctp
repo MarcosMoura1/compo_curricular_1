@@ -3,8 +3,9 @@
 
 </div>
 <P>
-	<?php echo $this->Html->link("Cadastrar Novo Produto", array('controller'=>'tijolos','action'=>'add'),
-	array('class'=>"btn btn-success"));?>
+	<?php echo $this->Html->link("<i class='icon-plus-sign icon-white'></i> Cadastrar Novo Produto", 
+			array('controller' => 'tijolos', 'action' => 'add'), 
+			array( 'escape' => false, 'class' => 'btn btn-small btn-success'));?>
 </P>
 
 <table class="table table-hover">
@@ -20,32 +21,49 @@
 		</tr>
 	</thead>
 	<body>
+		
 		<?php foreach ($tijolos as $tijolo): ?>
 			 <tr>
 				<td><?php echo $tijolo['Tijolo']['id']; ?></td>
 				<td><?php echo $this->Html->link($tijolo['Tijolo']['name'], array('action' => 'view', $tijolo['Tijolo']['id']));?></td>
 				<td><?php echo $tijolo['Tijolo']["material"];?></td>
 				<td><?php echo $tijolo['Tijolo']["peso"];?></td>
-				<td><?php echo $tijolo['Tijolo']["created"];?></td>
-				<td><?php echo $tijolo['Tijolo']["modified"];?></td>
-				<td>
-					<!--<a href="/post/view/id">Visualizar</a>-->
-
-				<?php echo $this->Html->link("Visualizar",array('controller'=>'tijolos','action'=>'view',
-				$tijolo['Tijolo']["id"]),array ('class'=>"btn"));?>
-				</td>	
-
-				<td>
+				<td><?php echo date( "d/m/Y H:i", strtotime($tijolo["Tijolo"]["created"])); ?></td>
+				<td><?php echo date( "d/m/Y H:i", strtotime($tijolo["Tijolo"]["modified"])); ?></td>
 				
-				<?php echo $this->Html->link('Editar', array('action' => 'edit', $tijolo['Tijolo']['id']),array ('class'=>"btn btn-info"));?>
-        		</td>
-       	 		<td>
-        		<?php echo $this->Form->postLink('Delete', array('action' => 'delete', $tijolo['Tijolo']['id']),
-        		array('class'=>"btn btn-danger",'confirm' => 'Você realmente deseja Deletar o Cadastro?')); ?>
+
+				<td><?php echo $this->Html->link("<i class='icon-eye-open'></i>Visualizar", 
+									array("controller" => "tijolos", "action" => "view", 
+									$tijolo["Tijolo"]["id"] ),
+					            	array('escape' => false, 'class' => 'btn btn-small')); ?></td>
+				
+				<td><?php echo $this->Html->link('<i class="icon-edit icon-white"></i> Editar', 
+									array('action' => 'edit', 
+									$tijolo['Tijolo']['id']),
+					            	array('escape' => false, 'class' => 'btn btn-small btn-info')); ?></td>
         		
-				</td>
+        		<td><?php echo $this->Form->postLink('<i class="icon-trash icon-white"></i> Deletar',
+					                array('action' => 'delete', $tijolo['Tijolo']['id']),
+					                array('confirm' => 'Você tem certeza?', 
+					                'escape' => false, 'class' => 'btn btn-small btn-danger','confirm' => 'Você realmente deseja Deletar o Cadastro?')); ?></td>
+        		
+				
 			</tr>
+
+
+
+
+
 		<?php endforeach; ?>
 
+
 		</body>
+
+
 	</table>
+	
+	<?php echo $this->element('pagination');?>
+	
+
+  
+

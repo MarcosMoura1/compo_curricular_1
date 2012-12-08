@@ -1595,3 +1595,205 @@
 #3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2012-12-07 23:03:23 Error: Fatal Error (4): syntax error, unexpected ''href="#"><i class="icon-align' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\xampp\htdocs\marcos\blog\app\View\Tijolos\index.ctp, line 35]
+2012-12-07 23:03:23 Error: [FatalErrorException] syntax error, unexpected ''href="#"><i class="icon-align' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 23:03:30 Error: Fatal Error (4): syntax error, unexpected ''href="#"><i class="icon-align' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\xampp\htdocs\marcos\blog\app\View\Tijolos\index.ctp, line 35]
+2012-12-07 23:03:30 Error: [FatalErrorException] syntax error, unexpected ''href="#"><i class="icon-align' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 23:03:52 Error: Fatal Error (4): syntax error, unexpected ''href="#"<i class="icon-align-' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\xampp\htdocs\marcos\blog\app\View\Tijolos\index.ctp, line 35]
+2012-12-07 23:03:52 Error: [FatalErrorException] syntax error, unexpected ''href="#"<i class="icon-align-' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 23:04:04 Error: Fatal Error (4): syntax error, unexpected ''<i class="icon-align-left"></' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\xampp\htdocs\marcos\blog\app\View\Tijolos\index.ctp, line 35]
+2012-12-07 23:04:04 Error: [FatalErrorException] syntax error, unexpected ''<i class="icon-align-left"></' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 23:05:00 Error: Fatal Error (4): syntax error, unexpected '<', expecting ')' in [C:\xampp\htdocs\marcos\blog\app\View\Tijolos\index.ctp, line 35]
+2012-12-07 23:05:00 Error: [FatalErrorException] syntax error, unexpected '<', expecting ')'
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 23:05:39 Error: Fatal Error (4): syntax error, unexpected ''<i class="icon-align-left"></' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\xampp\htdocs\marcos\blog\app\View\Tijolos\index.ctp, line 35]
+2012-12-07 23:05:39 Error: [FatalErrorException] syntax error, unexpected ''<i class="icon-align-left"></' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 23:06:35 Error: Fatal Error (4): syntax error, unexpected '/' in [C:\xampp\htdocs\marcos\blog\app\View\Tijolos\index.ctp, line 35]
+2012-12-07 23:06:35 Error: [FatalErrorException] syntax error, unexpected '/'
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 23:20:22 Error: Fatal Error (4): syntax error, unexpected '"Visualizar"' (T_CONSTANT_ENCAPSED_STRING) in [C:\xampp\htdocs\marcos\blog\app\View\Tijolos\index.ctp, line 38]
+2012-12-07 23:20:22 Error: [FatalErrorException] syntax error, unexpected '"Visualizar"' (T_CONSTANT_ENCAPSED_STRING)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 38)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 38, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 38, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 23:20:24 Error: Fatal Error (4): syntax error, unexpected '"Visualizar"' (T_CONSTANT_ENCAPSED_STRING) in [C:\xampp\htdocs\marcos\blog\app\View\Tijolos\index.ctp, line 38]
+2012-12-07 23:20:24 Error: [FatalErrorException] syntax error, unexpected '"Visualizar"' (T_CONSTANT_ENCAPSED_STRING)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 38)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 38, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 38, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 23:20:38 Error: Fatal Error (4): syntax error, unexpected '"Visualizar"' (T_CONSTANT_ENCAPSED_STRING) in [C:\xampp\htdocs\marcos\blog\app\View\Tijolos\index.ctp, line 36]
+2012-12-07 23:20:38 Error: [FatalErrorException] syntax error, unexpected '"Visualizar"' (T_CONSTANT_ENCAPSED_STRING)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 36, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 36, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 23:22:34 Error: Fatal Error (4): syntax error, unexpected '"Visualizar"' (T_CONSTANT_ENCAPSED_STRING) in [C:\xampp\htdocs\marcos\blog\app\View\Tijolos\index.ctp, line 35]
+2012-12-07 23:22:34 Error: [FatalErrorException] syntax error, unexpected '"Visualizar"' (T_CONSTANT_ENCAPSED_STRING)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 23:29:12 Error: Fatal Error (4): syntax error, unexpected 'controller' (T_STRING) in [C:\xampp\htdocs\marcos\blog\app\View\Tijolos\index.ctp, line 34]
+2012-12-07 23:29:12 Error: [FatalErrorException] syntax error, unexpected 'controller' (T_STRING)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 34, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 34, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 23:29:28 Error: Fatal Error (4): syntax error, unexpected 'controller' (T_STRING) in [C:\xampp\htdocs\marcos\blog\app\View\Tijolos\index.ctp, line 34]
+2012-12-07 23:29:28 Error: [FatalErrorException] syntax error, unexpected 'controller' (T_STRING)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 34, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 34, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 23:29:54 Error: Fatal Error (4): syntax error, unexpected 'controller' (T_STRING) in [C:\xampp\htdocs\marcos\blog\app\View\Tijolos\index.ctp, line 34]
+2012-12-07 23:29:54 Error: [FatalErrorException] syntax error, unexpected 'controller' (T_STRING)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 34, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 34, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 23:30:16 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\marcos\blog\app\View\Tijolos\index.ctp, line 34]
+2012-12-07 23:30:16 Error: [FatalErrorException] syntax error, unexpected '<'
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 34, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 34, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 23:30:44 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY) in [C:\xampp\htdocs\marcos\blog\app\View\Tijolos\index.ctp, line 34]
+2012-12-07 23:30:44 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY)
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 34, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 34, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 23:45:00 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\xampp\htdocs\marcos\blog\app\View\Layouts\default.ctp, line 140]
+2012-12-07 23:45:00 Error: [FatalErrorException] syntax error, unexpected end of file
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 140)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 140, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 140, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 23:45:36 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\xampp\htdocs\marcos\blog\app\View\Layouts\default.ctp, line 145]
+2012-12-07 23:45:36 Error: [FatalErrorException] syntax error, unexpected end of file
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 145)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 145, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 145, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 23:46:57 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\xampp\htdocs\marcos\blog\app\View\Layouts\default.ctp, line 144]
+2012-12-07 23:46:57 Error: [FatalErrorException] syntax error, unexpected end of file
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 144)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 144, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 144, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 23:47:59 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\xampp\htdocs\marcos\blog\app\View\Layouts\default.ctp, line 144]
+2012-12-07 23:47:59 Error: [FatalErrorException] syntax error, unexpected end of file
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 144)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 144, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 144, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 23:48:30 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\xampp\htdocs\marcos\blog\app\View\Layouts\default.ctp, line 137]
+2012-12-07 23:48:30 Error: [FatalErrorException] syntax error, unexpected end of file
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 137)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 137, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 137, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-08 00:47:43 Error: [MissingControllerException] Controller class PageController could not be found.
+#0 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-08 00:47:54 Error: [MissingActionException] Action PagesController::index() could not be found.
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-08 01:12:22 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\marcos\blog\app\View\Tijolos\index.ctp, line 9]
+2012-12-08 01:12:22 Error: [FatalErrorException] syntax error, unexpected '<'
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 9, Array)
+#2 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 9, Array)
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-08 02:37:37 Error: [MissingModelException] Post
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Controller\Controller.php(1082): PaginatorComponent->paginate('Post', Array, Array)
+#1 C:\xampp\htdocs\marcos\blog\app\Controller\TijolosController.php(19): Controller->paginate('Post')
+#2 [internal function]: TijolosController->index()
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TijolosController), Array)
+#4 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TijolosController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-12-08 02:37:41 Error: [MissingModelException] Post
+#0 C:\xampp\htdocs\marcos\blog\lib\Cake\Controller\Controller.php(1082): PaginatorComponent->paginate('Post', Array, Array)
+#1 C:\xampp\htdocs\marcos\blog\app\Controller\TijolosController.php(19): Controller->paginate('Post')
+#2 [internal function]: TijolosController->index()
+#3 C:\xampp\htdocs\marcos\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TijolosController), Array)
+#4 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\marcos\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TijolosController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\marcos\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}

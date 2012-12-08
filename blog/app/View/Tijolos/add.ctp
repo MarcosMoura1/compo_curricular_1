@@ -10,4 +10,4 @@ echo $this->Form->input('material', array('rows' => '3'));
 echo $this->Form->input('peso');
 
 #fechando o formulario e gerando o botão SUbmit
-echo $this->Form->end("Enviar");
+echo $this->Form->end("Cadastrar");

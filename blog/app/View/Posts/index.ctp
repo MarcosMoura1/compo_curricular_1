@@ -2,10 +2,12 @@
 <h1>Listando as Tabelas</h1>
 
 </div>
-<P>
-	<?php echo $this->Html->link("Novo Item", array('controller'=>'posts','action'=>'add'),
-	array('class'=>"btn btn-success"));?>
-</P>
+<p>
+	<?php echo $this->Html->link("<i class='icon-plus-sign icon-white'></i> Novo item", 
+			array('controller' => 'posts', 'action' => 'add'), 
+			array( 'escape' => false, 'class' => 'btn btn-small btn-success')); 
+	?>
+</p>
 
 <table class="table table-hover">
 	<thead>
@@ -29,17 +31,20 @@
 				<td>
 					<!--<a href="/post/view/id">Visualizar</a>-->
 
-				<?php echo $this->Html->link("Visualizar",array('controller'=>'posts','action'=>'view',
-				$post["Post"]["id"]),array ('class'=>"btn"));?>
-				</td>	
+				<?php echo $this->Html->link("<i class='icon-eye-open'></i> Visualizar", 
+									array("controller" => "posts", "action" => "view", 
+									$post["Post"]["id"] ),
+					            	array('escape' => false, 'class' => 'btn btn-small')); ?>
+					
+					<?php echo $this->Html->link('<i class="icon-edit icon-white"></i> Editar', 
+									array('action' => 'edit', 
+									$post['Post']['id']),
+					            	array('escape' => false, 'class' => 'btn btn-small btn-info')); ?>
 
-				<td>
-				
-				<?php echo $this->Html->link('Editar', array('action' => 'edit', $post['Post']['id']),array ('class'=>"btn btn-info"));?>
-        		</td>
-       	 		<td>
-        		<?php echo $this->Form->postLink('Delete', array('action' => 'delete', $post['Post']['id']),
-        		array('class'=>"btn btn-danger",'confirm' => 'Realmente deseja Excluir?')); ?>
+        		<?php echo $this->Form->postLink('<i class="icon-trash icon-white"></i> Deletar',
+					                array('action' => 'delete', $post['Post']['id']),
+					                array('confirm' => 'Realmente deseja Excluir?', 
+					                'escape' => false, 'class' => 'btn btn-small btn-danger')); ?>
         		
 				</td>
 			</tr>
@@ -47,3 +52,4 @@
 
 		</body>
 	</table>
+	<?php echo $this->element('pagination');?>
